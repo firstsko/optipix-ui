@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Box, Button, TextField, Typography, Divider, List, ListItem, ListItemText, Avatar } from "@mui/material";
 
-// 修改 ChatComponent 组件，接收 cardData 作为 props
+
 const ChatComponent = ({ cardData }: { cardData: any }) => {
   const [messages, setMessages] = useState([
     { sender: "Takei", message: "There is a scratch on the part in the diagram, is it acceptable?", time: "11:23 AM" },
